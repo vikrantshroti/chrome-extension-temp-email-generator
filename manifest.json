@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Temp Email Generator",
+    "version": "1.0",
+    "description": "Generate disposable email aliases quickly from your browser.",
+    "permissions": ["clipboardWrite", "activeTab", "storage"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icons8-email-16.png",
+        "48": "icons/icons8-email-48.png",
+        "96": "icons/icons8-email-96.png"
+      }
+    },
+    "icons": {
+      "16": "icons/icons8-email-16.png",
+        "48": "icons/icons8-email-48.png",
+        "96": "icons/icons8-email-96.png"
+    }
+  }
